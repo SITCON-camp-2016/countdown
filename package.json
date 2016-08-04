@@ -1,0 +1,24 @@
+{
+  "name": "countdown",
+  "version": "1.0.0",
+  "description": "A Countdown Timer for SITCON Summer Camp 2016 Hackathon",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SITCON-camp-2016/countdown.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SITCON-camp-2016/countdown/issues"
+  },
+  "homepage": "https://github.com/SITCON-camp-2016/countdown#readme",
+  "dependencies": {
+    "moment": "^2.14.1",
+    "react": "^15.3.0",
+    "react-dom": "^15.3.0"
+  }
+}
