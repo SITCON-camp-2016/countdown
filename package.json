@@ -16,6 +16,10 @@
     "url": "https://github.com/SITCON-camp-2016/countdown/issues"
   },
   "homepage": "https://github.com/SITCON-camp-2016/countdown#readme",
+  "scripts": {
+    "dev": "NODE_ENV=test cp index.html ./dist && webpack-dev-server --devtool eval --progress --colors --content-base dist",
+    "build": "NODE_ENV=production webpack --progress"
+  },
   "dependencies": {
     "babel-core": "^6.11.4",
     "babel-loader": "^6.2.4",
