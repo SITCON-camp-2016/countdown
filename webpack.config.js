@@ -1,7 +1,7 @@
 var path = require('path');
 
 module.exports = {
-    entry: ['./js/Main.jsx'],
+    entry: ['./src/scripts/Main.jsx'],
     output: {
         path: __dirname + '/dist',
         publicPath: '/',
@@ -11,7 +11,11 @@ module.exports = {
         loaders: [
             {
                 test: /\.jsx$/,
-                loader: 'babel?presets[]=react'
+                loader: 'babel',
+                query: {
+                    presets: ['es2015', 'react']
+                }
+
             },
             {
                 test: /\.css$/,
