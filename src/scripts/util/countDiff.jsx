@@ -14,8 +14,8 @@ function countDiff() {
 
 // test
 
-setInterval(function() {
-	console.log(countDiff());
-}, 1000);
+// setInterval(function() {
+// 	console.log(countDiff());
+// }, 1000);
 
 module.exports = countDiff;
